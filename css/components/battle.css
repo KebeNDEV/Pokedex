@@ -1,0 +1,39 @@
+.battle-section {
+    background: var(--battle-bg);
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.selected-pokemon-container {
+    background: var(--battle-container-bg);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.battle-button {
+    background: linear-gradient(45deg, #4299e1, #667eea);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.battle-button:hover:not(:disabled) {
+    transform: translateY(-2px);
+}
+
+.reset-button {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+} 

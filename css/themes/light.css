@@ -1,0 +1,23 @@
+:root[data-theme="light"] {
+    --bg-primary: #f7fafc;
+    --bg-secondary: #edf2f7;
+    --text-primary: #1a202c;
+    --text-secondary: #4a5568;
+    
+    --card-bg: rgba(255, 255, 255, 0.9);
+    --card-border: rgba(0, 0, 0, 0.1);
+    
+    --input-bg: rgba(255, 255, 255, 0.9);
+    --input-border: rgba(66, 153, 225, 0.4);
+    --input-border-focus: rgba(66, 153, 225, 0.7);
+    --input-shadow: rgba(66, 153, 225, 0.3);
+    
+    --battle-bg: linear-gradient(to right, #ebf8ff, #e6fffa);
+    --battle-container-bg: rgba(255, 255, 255, 0.8);
+    
+    --pagination-bg: rgba(66, 153, 225, 0.2);
+    --pagination-border: rgba(66, 153, 225, 0.4);
+    --pagination-hover-bg: rgba(66, 153, 225, 0.3);
+    --pagination-active-bg: rgba(66, 153, 225, 0.4);
+    --pagination-active-border: rgba(66, 153, 225, 0.6);
+} 

@@ -1,0 +1,19 @@
+@import 'components/header.css';
+@import 'components/cards.css';
+@import 'components/battle.css';
+@import 'components/search.css';
+@import 'components/pagination.css';
+@import 'components/animations.css';
+@import 'themes/dark.css';
+@import 'themes/light.css';
+
+:root {
+    /* Variables globales */
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+} 
