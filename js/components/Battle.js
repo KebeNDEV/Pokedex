@@ -37,4 +37,11 @@ export class Battle {
     updateUI() {
         // Actualizar UI con Pokémon seleccionados
     }
-} 
+}
+
+export function initiateBattle(pokemon1, pokemon2) {
+    // ... código original de iniciarBatalla ...
+}
+
+// Hacer la función disponible globalmente
+window.iniciarBatalla = initiateBattle; 

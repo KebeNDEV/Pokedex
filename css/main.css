@@ -1,19 +1,13 @@
-@import 'components/header.css';
-@import 'components/cards.css';
-@import 'components/battle.css';
-@import 'components/search.css';
-@import 'components/pagination.css';
-@import 'components/animations.css';
-@import 'themes/dark.css';
-@import 'themes/light.css';
+/* Base */
+@import './base/variables.css';
 
-:root {
-    /* Variables globales */
-}
+/* Componentes */
+@import './components/animations.css';
+@import './components/battle.css';
+@import './components/cards.css';
+@import './components/pagination.css';
+@import './components/search.css';
 
-body {
-    font-family: system-ui, -apple-system, sans-serif;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-} 
+/* Temas */
+@import './themes/dark.css';
+@import './themes/light.css'; 

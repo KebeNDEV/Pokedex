@@ -1,0 +1,8 @@
+:root {
+    /* Variables globales que se comparten entre temas */
+    --transition-speed: 0.3s;
+    --border-radius: 1rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+} 
